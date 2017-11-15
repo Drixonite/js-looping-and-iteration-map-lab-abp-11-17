@@ -1,7 +1,7 @@
 // // Code your solution in this file.
 
-function drivers(array) {
-  let array.map(function(driver){
+function lowerCaseDrivers(list) {
+  let list.map(function(driver){
     return driver.toLowerCase();
   })
 }
