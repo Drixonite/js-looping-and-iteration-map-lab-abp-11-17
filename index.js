@@ -1,12 +1,12 @@
 // // Code your solution in this file.
 
 function lowerCaseDrivers(drivers) {
-  return drivers.toLowerCase();
+  return drivers.map(drivers.toLowerCase);
 }
 // You'll be writing three functions:
 //  * `lowerCaseDrivers` - this function takes an array of drivers, and returns an array of the drivers names
 // in lowercase.
-//  * `nameToAttributes` - this function takes an array of drivers with their first and last name separated 
+//  * `nameToAttributes` - this function takes an array of drivers with their first and last name separated
 // by a space, and returns an array of JavaScript objects with `firstName` and `lastName` attributes.
 //  * `attributesToPhrase` - this function takes an array of drivers as JavaScript objects and returns a
 // string saying `"<NAME OF DRIVER> is from <HOMETOWN>"` for each JavaScript object in the array.
