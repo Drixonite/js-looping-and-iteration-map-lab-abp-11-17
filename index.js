@@ -7,7 +7,7 @@
 //   });
 // }
 function lowerCaseDrivers (list) {
-  return let list.map(function(driver){
+  return list.map(function(driver){
     return driver.toLowerCase();
   });
 }
