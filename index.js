@@ -1,7 +1,15 @@
 // // Code your solution in this file.
 
-function lowerCaseDrivers(drivers) {
-  return drivers.map(drivers.toLowerCase);
+function lowerCaseDrivers(array) {
+  return array.name.toLowerCase();
+}
+
+function nameToAttributes(){
+  
+}
+
+function attributesToPhrase(){
+  
 }
 // You'll be writing three functions:
 //  * `lowerCaseDrivers` - this function takes an array of drivers, and returns an array of the drivers names
